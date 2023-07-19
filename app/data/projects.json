@@ -1,0 +1,50 @@
+{
+    "projects": [
+      {
+        "title": "InstaVibe: Social Media Platform",
+        "description": "Experience the InstaVibe - A vibrant social media platform inspired by Instagram, crafted with GraphQL, Node.js, React, and Postgres.",
+        "techUsed": ["GraphQL", "Node.js", "React", "Postgres"],
+        "imageUrl": "https://example.com/instavibe-image.jpg",
+        "githubLink": "https://github.com/yourusername/instavibe",
+        "liveLink": "https://example.com/instavibe-live",
+        "websiteLink": "https://example.com/instavibe-website"
+      },
+      {
+        "title": "CodeWings: Java Subset Compiler",
+        "description": "Unleash the CodeWings - A powerful Java subset compiler leveraging tokenization and automata concepts, powered by C++ magic.",
+        "techUsed": ["C++", "Java", "Compiler Concepts"],
+        "imageUrl": "https://example.com/codewings-image.jpg",
+        "githubLink": "https://github.com/yourusername/codewings-compiler",
+        "liveLink": "https://example.com/codewings-live",
+        "websiteLink": "https://example.com/codewings-website"
+      },
+      {
+        "title": "NoteZap: Lightning-Fast Note Taking App",
+        "description": "NoteZap - A lightning-fast note-taking app built with React, Node.js, AWS Serverless, Cognito, DynamoDB, and TypeScript.",
+        "techUsed": ["React", "Node.js", "AWS Serverless", "Cognito", "DynamoDB", "TypeScript"],
+        "imageUrl": "https://example.com/notezap-image.jpg",
+        "githubLink": "https://github.com/yourusername/notezap",
+        "liveLink": "https://example.com/notezap-live",
+        "websiteLink": "https://example.com/notezap-website"
+      },
+      {
+        "title": "Shoppify: Microservices E-commerce Platform",
+        "description": "Welcome to Shoppify - A cutting-edge microservices e-commerce platform featuring Node.js, MySQL, MongoDB, Docker, Kubernetes, Kafka, and React.",
+        "techUsed": ["Node.js", "Microservices", "MySQL", "MongoDB", "Docker", "Kubernetes", "Kafka", "React"],
+        "imageUrl": "https://example.com/shoppify-image.jpg",
+        "githubLink": "https://github.com/yourusername/shoppify",
+        "liveLink": "https://example.com/shoppify-live",
+        "websiteLink": "https://example.com/shoppify-website"
+      },
+      {
+        "title": "RustWave: Powerful Rust Server",
+        "description": "Dive into RustWave - A robust server built with the extraordinary Rust programming language and its fundamental concepts.",
+        "techUsed": ["Rust", "Server-side Development"],
+        "imageUrl": "https://example.com/rustwave-image.jpg",
+        "githubLink": "https://github.com/yourusername/rustwave-server",
+        "liveLink": "https://example.com/rustwave-live",
+        "websiteLink": "https://example.com/rustwave-website"
+      }
+    ]
+  }
+  
