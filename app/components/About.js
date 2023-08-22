@@ -101,23 +101,25 @@ export default function About () {
            md:col-span-2
            ">
             <div className="flex flex-wrap gap-6 sm:gap-8 p-4 justify-center  items-center">
-            <a href="https://github.com/kunalznk" className="rounded-full   p-2 transition-all group hover:bg-white hover:scale-125 hover:cursor-pointer"
+            <a href="https://github.com/kunalznk" className="
+            rounded-full border-1  p-2 transition-all group hover:bg-black hover:scale-125 hover:cursor-pointer
+            "
             data-aos="fade-left"
             data-aos-duration={1000}>
             <Icons.Github  />
             </a>
-            <a href="https://github.com/kunalznk" className="rounded-full   p-2 transition-all hover:bg-white hover:scale-125 hover:cursor-pointer"
+            <a href="https://twitter.com/kunalznk" className="rounded-full   p-2 transition-all hover:bg-white hover:scale-125 hover:cursor-pointer"
              data-aos="fade-right"
              data-aos-duration={1000}>
             <Icons.Twitter  />
             </a>
-            <a href="https://github.com/kunalznk" className="rounded-full   p-2 transition-all hover:bg-white hover:scale-125 hover:cursor-pointer"
+            <a href="https://stackoverflow.com/users/10115696/kunal-zanke" className="rounded-full   p-2 transition-all hover:bg-white hover:scale-125 hover:cursor-pointer"
             data-aos="fade-left"
             data-aos-duration={2000}
             >
             <Icons.StackOverflow  />
             </a>
-            <a href="https://github.com/kunalznk" className="rounded-full   p-2 transition-all hover:bg-white hover:scale-125 hover:cursor-pointer"
+            <a href="https://www.linkedin.com/in/kunalzanke/" className="rounded-full   p-2 transition-all hover:bg-white hover:scale-125 hover:cursor-pointer"
             data-aos="fade-right"
             data-aos-duration={1000}>
             <Icons.LinkedIn  />

@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export default function Blog () {
+export default function Blog ({ blog }) {
     return (
         <div
         className="p-2
@@ -18,23 +18,23 @@ export default function Blog () {
             
             ">
         <div className="max-w-md">
-        <img src="https://source.unsplash.com/random/728x459" alt="kunalznk"className="rounded-t-md"/>
+        <img src={blog.thumbnail} alt="kunalznk"className="rounded-t-md aspect-video"/>
         </div>
-        <div className="flex flex-col justify-between gap-4 bg-secondary text-primary max-w-md rounded-b-md">
+        <div className="flex flex-col justify-between gap-4 bg-secondary text-primary max-w-md rounded-b-md min-w-full">
         <div className="w-full flex justify-between px-2 my-2">
-            <div className="p-1">25 comments</div>
-            <div className="p-1">17 Likes</div>
-            <div className="p-1">By Adams</div>
+            <div className="p-1">{new Date(blog.pubDate).toLocaleDateString()}</div>
+            {/* <div className="p-1">17 Likes</div> */}
+            <div className="p-1">By {blog.author}</div>
         </div>
         <div className="text-2xl px-2  sm:px-4">
-            Design is not just color it speaks visually Design is not just color it speaks visually...
+            {blog.title}
         </div>
-        <div className="w-full flex justify-between px-4 my-2">
+        <a href={blog.link} className="w-full flex justify-between px-4 my-2">
             <div className="text-lg">
                 Read More
             </div>
             <Image src="/arrow.svg" alt="scroll arrow" width={30} height={0} className="-rotate-90 invert hover:cursor-pointer hover:scale-110" />
-        </div>
+        </a>
         </div>
             </div>
             </div>

@@ -167,7 +167,7 @@ function Anime ({ project }) {
         <a href="#" className="group relative block bg-black  h-80 sm:h-full  rounded-md ">
   <img
     alt="Developer"
-    src="https://source.unsplash.com/random/728x459"    className="absolute inset-0 h-full w-full object-cover 
+    src={imageUrl}    className="absolute inset-0 h-full w-full object-cover 
     rounded-md
     opacity-75 
     transition-all 
@@ -190,9 +190,8 @@ function Anime ({ project }) {
                 -translate-x-20 
                 group-hover:translate-x-0 group-hover:opacity-100
                 text-left
-
                 ">
-                  {description}
+                  {description.substring(0,80)}
                 </div>
                 <div className="w-full flex justify-center items-center
              
@@ -215,7 +214,7 @@ function Anime ({ project }) {
                   <a href={githubLink} className="rounded-full  p-2 transition-all group hover:bg-black hover:scale-125 hover:cursor-pointer">
             <Icons.Github  />
             </a>
-            <a href={websiteLink} className="flex  gap-8 items-center ">
+            <a href={githubLink} className="flex  gap-8 items-center ">
                 <div className="w-36 sm:w-auto">
                     Read More
                     </div>

@@ -1,7 +1,7 @@
 function Github () {
     return <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-7 w-7 group-hover:invert"
+    className="h-7 w-7 sm:h-12 sm:w-12 group-hover:invert"
     fill="currentColor"
     viewBox="0 0 24 24">
     <path
@@ -12,7 +12,7 @@ function Github () {
 function LinkedIn () {
     return ( <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-7 w-7"
+        className="h-7 w-7 sm:h-12 sm:w-12"
         fill="currentColor"
         style={{color:"#0077b5"}}
         viewBox="0 0 24 24">
@@ -26,7 +26,7 @@ function LinkedIn () {
 function StackOverflow () {
     return (<svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-7 w-7"
+        className="h-7 w-7 sm:h-12 sm:w-12"
         fill="currentColor"
         style={{color:"#f48024"}}
         viewBox="0 0 24 24">
@@ -39,7 +39,7 @@ function StackOverflow () {
 function Twitter () {
     return (<svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-7 w-7"
+        className="h-7 w-7 sm:h-12 sm:w-12"
         fill="currentColor"
         style={{color: "#1da1f2"}}
         viewBox="0 0 24 24">
@@ -51,7 +51,7 @@ function Twitter () {
 
 function Discord () {
     return (<svg
-        className="h-7 w-7"
+        className="h-7 w-7 sm:h-12 sm:w-12"
         fill="currentColor"
         viewbox="0 0 24 24"
         style={{color: "#7289da"}}
